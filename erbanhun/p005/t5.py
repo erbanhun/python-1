@@ -8,7 +8,7 @@ import glob, os
 
 rootdir = "F:\python\photo"
 
-def dealPhoto(dir, pixel):
+def dealPhoto(dir, pixel): # http://pillow.readthedocs.io/en/latest/reference/Image.html
     os.chdir(dir)
     #size = 128, 128
     for infile in glob.glob("*，jpg"): # 只对jpg 有效
